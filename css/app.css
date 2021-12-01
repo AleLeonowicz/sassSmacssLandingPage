@@ -8,6 +8,7 @@ body {
   font-family: "Roboto Slab", serif;
   font-size: 1rem;
   line-height: 1.25;
+  margin: 0;
 }
 
 .row {
@@ -146,6 +147,39 @@ body {
   letter-spacing: -0.025em;
 }
 
+#page-footer {
+  clear: both;
+  background-color: #212630;
+  padding: 25px 0 40px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.footer-container {
+  padding: 0 10%;
+}
+.footer-container .lego-footer {
+  font-size: 1rem;
+  font-weight: 200;
+  color: #fffcfc;
+}
+.footer-container .lego-footer .footer-wrapper {
+  display: inline-block;
+  padding: 20px;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.footer-link {
+  margin-right: 36px;
+  color: #fffcfc;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #cd4b3d;
+}
+
 .nav-header {
   padding: 0 0 10px;
   background-color: #fff;
@@ -180,7 +214,7 @@ body {
   text-transform: uppercase;
 }
 .nav-menu .nav-menu-list .nav-item .nav-a:hover {
-  color: red;
+  color: #cd4b3d;
 }
 
 .b-video-img {
